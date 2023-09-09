@@ -47,5 +47,5 @@ x=true;
         console.log(`La serie de Fibonacci hasta el término ${n} es: ${fibRec(n)}`),
         console.log(`El número áureo calculado con los primeros ${n} términos de la serie de Fibonacci es aproximadamente: ${aureoItera(n)}`),
         console.log("Otro redondeo del numero aureo: "+aureoRec(n)),x=false) 
-        : alert("Porfavor digite un valor valido");
+        : alert("Porfavor digite un valor valido ");
       }
