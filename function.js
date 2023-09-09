@@ -49,3 +49,5 @@ x=true;
         console.log("Otro redondeo del numero aureo: "+aureoRec(n)),x=false) 
         : alert("Porfavor digite un valor valido ");
       }
+
+      //Si
