@@ -17,13 +17,6 @@ function fibRec(n){
     }
     return fibSeries;
   }
-  
-function palindrom(text){
-    text = text.toLowerCase();
-    text = text.replaceAll(",","");
-    const myArray = text.split(" ");
-    console.log(myArray);
-}
 
 //Numero Aureo
 
