@@ -4,10 +4,10 @@ function fibRec(n){
     return n<=1 ?  n : (fibRec(n-2)+fibRec(n-1));
   }
   
-  function fibItera(n) {
+  function fibItera(n){
     let a = 1;
     let b = 1;
-    const fibSeries = [a];
+    const fibSeries = [1,1];
   
     for (let i = 2; i < n; i++) {
       nextFib = a + b;
@@ -25,7 +25,7 @@ function aureoRec(n){
 }
 
 function aureoItera(n) {
-  let a = 0;
+  let a = 1;
   let b = 1;
 
   for (let i = 2; i <= n; i++) {
