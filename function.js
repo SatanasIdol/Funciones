@@ -6,7 +6,7 @@ function fibRec(n){
 function fibItera(n){
   let a = 1;
   let b = 1;
-  const fibSeries = [1,1];
+  const fibSeries = n==1 ? [a] : [a,b];
   
   for (let i = 2; i < n; i++) {
     nextFib = a + b;
@@ -42,8 +42,7 @@ x=true;
 // ingreso y validacion de datos
 while(x==true){
   let n = prompt("Digite un numero");
-  (n != null && 
-  (n >= '0') && (n <= '9'))
+  (n > '0') && (n <= '9')
   ? (n=parseInt(n),console.log(`Los primeros ${n} términos de la secuencia de Fibonacci son: ${fibItera(n)}`),
   console.log(`La serie de Fibonacci hasta el término ${n} es: ${fibRec(n)}`),
   console.log(`El número áureo calculado con los primeros ${n} términos de la serie de Fibonacci es aproximadamente: ${aureoItera(n)}`),
